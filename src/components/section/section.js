@@ -2,7 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import SectionForm from '../section-form/section-form';
-import { create } from '../../action/section';
 import * as sectionActions from '../../action/section';
 
 class Section extends React.Component {

@@ -22,7 +22,7 @@ export default class SectionForm extends React.Component {
   }
 
   render() {
-    console.log(this.props, 'WHAT IS THIS LOL')
+    console.log(this.props, 'WHAT IS THIS LOL');
     const buttonText = this.props.section ? 'Update' : 'Create';
     return (
       <form

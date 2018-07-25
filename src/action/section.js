@@ -1,13 +1,13 @@
-import uuid from 'uuid/v4'
+import uuid from 'uuid/v4';
 
-const create = ({ name }) => ({
+const create = ({ name, budget }) => ({
   type: 'SECTION_CREATE',
   payload: {
     name,
     id: uuid,
     createdOn: new Date(),
     budget,
-  }
+  },
 });
 
 const update = section => ({
